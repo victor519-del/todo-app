@@ -22,7 +22,7 @@ export default function TaskForm({onAddTask}) {
     }
   return (
     <>
-    <div className="border-slate-700 border-4 border-solid ">
+    <div className="border-slate-700 border-4 border-solid">
     <form onSubmit={handleClick}>
         <input 
         type="text" 

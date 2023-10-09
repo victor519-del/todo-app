@@ -1,6 +1,6 @@
 import TaskItem from "../Dashboard/TaskItem"
 
-export default function TaskList({tasks}) {
+export default function TaskList({tasks, onDeleteTask}) {
   
 // const TaskList = ({ tasks, onEditTask, onDeleteTask }) => {
   const handleDeleteTask = (taskId) => {
@@ -15,8 +15,8 @@ export default function TaskList({tasks}) {
         {tasks.map( task => (
             <TaskItem key={task.id} 
             task={task}
-            onEditTask={handleEditTask}
-             onDeleteTask={handleDeleteTask}
+            // onEditTask={handleEditTask}
+             onDeleteTask={onDeleteTask}
             />
         ))}
     </section>

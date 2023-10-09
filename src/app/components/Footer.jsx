@@ -1,14 +1,14 @@
 import React from 'react'
 
-export default function Footer() {
-  return (
-    <div className='bg-black h-[90px]'>
-      <p className='text-white text-2xl text-center'>&copy; 2023 VICDIME. All rights reserved.</p>
+// export default function Footer() {
+//   return (
+    // <div className='bg-black h-[90px]'>
+    //   <p className='text-white text-2xl text-center'>&copy; 2023 VICDIME. All rights reserved.</p>
 
 
-    </div>
-  )
-}
+    // </div>
+//   )
+// }
 
 
 // export default function TaskItem({task}) {

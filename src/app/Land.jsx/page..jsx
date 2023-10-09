@@ -16,15 +16,15 @@ export default function page() {
       <p> <Link href='Login'><button className='hover:border-sky-300 border-solid border-4 text-3xl text-black my-2 font-extrabold'>Get STARTED</button></Link></p>
     </div>
 
-    <div class="grid grid-cols-3 gap-4 h-[600px] my-5">
-  <div class="bg-blue-200 p-4 hover:bg-red-900 transition-shadow delay-1000 ">
+    <div className="grid grid-cols-3 gap-4 h-[600px] my-5">
+  <div className="bg-blue-200 p-4 hover:bg-red-900 transition-shadow delay-1000 ">
     <section>
     Tasks are specific activities or assignments aimed at achieving particular goals, ranging from simple to complex, and can be individual or collaborative efforts.
 In academic settings, tasks are assignments, projects, or exams that challenge students to demonstrate their understanding and critical thinking skills.
  <button className='font-bold'>Get Started</button>
     </section>
   </div>
-  <div class="bg-green-200 p-4 hover:bg-lime-700 blur-4 delay-1000">
+  <div className="bg-green-200 p-4 hover:bg-lime-700 blur-4 delay-1000">
     <div className='font-extrabold text-2xl text-center'>Order ur Task </div>
     <section className='font-bold'>Prioritizing tasks based on their importance is crucial for effective time management and goal achievement. 
       Here's a step-by-step approach to prioritize tasks based on their importance
